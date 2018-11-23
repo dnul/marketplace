@@ -119,6 +119,8 @@
     "available_parcels": "Colis disponibles",
     "bid": "Offre",
     "description": "Choisissez le LAND que vous voulez acheter",
+    "empty_message":
+      "Sélectionnez les colis pour commencer à acheter, si vous avez besoin d'aide supplémentaire, vous pouvez regarder notre {video_tutorial_link}",
     "find_available_parcel": "Trouver un colis disponible",
     "gas_price": "Prix ​​du gaz",
     "land_price": "Prix LAND",
@@ -127,10 +129,11 @@
     "maximum_parcels_title":
       "Vous avez atteint le maximum LAND par transaction",
     "searching": "Recherche...",
+    "sold": "Vendu",
     "title": "LAND panier",
     "token": "Jeton",
-    "sold": "Vendu",
-    "total_price": "Prix ​​total"
+    "total_price": "Prix ​​total",
+    "video_tutorial": "Didacticiel vidéo"
   },
   "authorization": {
     "allow": "Autoriser le {contract_link} à utiliser {symbol} en votre nom",

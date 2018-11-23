@@ -116,6 +116,8 @@
     "available_parcels": "Available parcels",
     "bid": "Bid",
     "description": "Choose the LAND you want to buy",
+    "empty_message":
+      "Select parcels to start buying, if you need extra help you can watch our {video_tutorial_link}",
     "find_available_parcel": "Find available parcel",
     "gas_price": "Gas price",
     "land_price": "Price per LAND",
@@ -123,10 +125,11 @@
       "If you try to buy more than {max} LAND in a single transaction it'll fail. You must submit this transaction and then buy more parcels in a subsequent transaction.",
     "maximum_parcels_title": "You reached the maximum LAND per transaction",
     "searching": "Searching...",
+    "sold": "Sold",
     "title": "LAND Cart",
     "token": "Token",
-    "sold": "Sold",
-    "total_price": "Total price"
+    "total_price": "Total price",
+    "video_tutorial": "Video Tutorial"
   },
   "authorization": {
     "allow": "Authorize the {contract_link} to operate {symbol} on your behalf",

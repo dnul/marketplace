@@ -4,7 +4,10 @@ import { Checkbox, Button } from 'semantic-ui-react'
 import { t, T } from '@dapps/modules/translation/utils'
 
 import ContractLink from 'components/ContractLink'
-import { dismissAuctionModal } from 'modules/auction/utils'
+import {
+  dismissAuctionModal,
+  getVideoTutorialLink
+} from 'modules/auction/utils'
 
 import BaseModal from '../BaseModal'
 
@@ -75,7 +78,7 @@ export default class AuctionModal extends React.PureComponent {
         </header>
         <div className="video-container">
           <iframe
-            src="https://www.youtube-nocookie.com/embed/-HmXrOTEmxg?controls=0"
+            src={getVideoTutorialLink()}
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

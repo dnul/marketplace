@@ -22,3 +22,7 @@ export function dismissAuctionModal() {
   const localStorage = getLocalStorage()
   localStorage.setItem('seenAuctionModal', Date.now())
 }
+
+export function getVideoTutorialLink() {
+  return 'https://www.youtube-nocookie.com/embed/-HmXrOTEmxg?controls=0'
+}

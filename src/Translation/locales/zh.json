@@ -108,6 +108,8 @@
     "available_parcels": "可用包裹",
     "bid": "出价",
     "description": "选择您要购买的LAND",
+    "empty_message":
+      "选择包裹开始购买，如果您需要额外的帮助，您可以观看我们的{video_tutorial_link}",
     "find_available_parcel": "查找可用包裹",
     "gas_price": "天然气价格",
     "land_price": "LAND价格",
@@ -115,10 +117,11 @@
       "如果你试图在一次交易中购买超过{max} LAND，它就会失败。",
     "maximum_parcels_title": "您达到了每笔交易的最高LAND",
     "searching": "搜索...",
+    "sold": "出售",
     "title": "LAND购物车",
     "token": "代币",
-    "sold": "出售",
-    "total_price": "总价"
+    "total_price": "总价",
+    "video_tutorial": "视频教程"
   },
   "authorization": {
     "allow": "授权 {contract_link} 使用 {symbol}",
