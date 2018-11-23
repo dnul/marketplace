@@ -114,6 +114,8 @@
     "available_parcels": "利用可能な小包",
     "bid": "入札",
     "description": "購入したいLANDを選択してください",
+    "empty_message":
+      "あなたが私たちの{video_tutorial_link}を見ることができる余分な助けが必要な場合は、購入を開始する小包を選択してください",
     "find_available_parcel": "利用可能な小包を見つける",
     "gas_price": "ガス価格",
     "land_price": "LAND価格",
@@ -124,8 +126,9 @@
     "sold": "売れた",
     "title": "カート",
     "token": "トークン",
-    "token_tooltip": "トークンを選択するにはここをクリックしてください",
-    "total_price": "合計金額"
+    "total_price": "合計金額",
+    "video_tutorial": "ビデオチュートリアル",
+    "token_tooltip": "トークンを選択するにはここをクリックしてください"
   },
   "authorization": {
     "allow": "{contract_link}に準じて{symbol}を操作することを許可する",

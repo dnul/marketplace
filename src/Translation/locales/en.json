@@ -116,6 +116,8 @@
     "available_parcels": "Available parcels",
     "bid": "Bid",
     "description": "Choose the LAND you want to buy",
+    "empty_message":
+      "Select parcels to start buying, if you need extra help you can watch our {video_tutorial_link}",
     "find_available_parcel": "Find available parcel",
     "gas_price": "Gas price",
     "land_price": "Price per LAND",
@@ -126,8 +128,9 @@
     "sold": "Sold",
     "title": "LAND Cart",
     "token": "Token",
-    "token_tooltip": "Click here to select the token",
-    "total_price": "Total price"
+    "total_price": "Total price",
+    "video_tutorial": "video tutorial",
+    "token_tooltip": "Click here to select the token"
   },
   "authorization": {
     "allow": "Authorize the {contract_link} to operate {symbol} on your behalf",
