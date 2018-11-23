@@ -26,7 +26,8 @@ import {
   hasSeenAuctionHelper,
   TOKEN_SYMBOLS,
   AUCTION_HELPERS,
-  dismissAuctionHelper
+  dismissAuctionHelper,
+  hasAuctionFinished
 } from 'modules/auction/utils'
 import { isEqualCoords, isParcel } from 'shared/parcel'
 import { preventDefault } from 'lib/utils'
@@ -89,8 +90,10 @@ export default class AuctionPage extends React.PureComponent {
 
   showAuctionModal(props) {
     const { onShowAuctionModal } = props
-
-    if (!hasSeenAuctionHelper(AUCTION_HELPERS.SEEN_AUCTION_MODAL)) {
+    if (
+      !hasSeenAuctionHelper(AUCTION_HELPERS.SEEN_AUCTION_MODAL) ||
+      hasAuctionFinished()
+    ) {
       onShowAuctionModal()
     }
   }

@@ -105,8 +105,14 @@
   "auction_modal": {
     "description":
       "To participate in this new auction, you'll need to authorize the new {contract_link} contract.",
+    "finished_title": "Auction Finished",
+    "finished_description": "Thank you for participating.",
+    "finished_cta": "Go to marketplace",
     "i_agree_with_terms": "I agree with the {terms_link}",
+    "land_sold": "LAND sold",
+    "mana_burned": "Mana burned",
     "start": "Start",
+    "stats_title": "Here are some stats:",
     "terms_and_conditions": "Terms and Conditions",
     "title": "Decentraland Auction",
     "video_tutorial": "Video Tutorial",
@@ -231,6 +237,7 @@
     "continue": "Continue",
     "contributions": "Contributions",
     "created_at": "Created at {date}",
+    "duration": "Duration",
     "edit": "Edit",
     "estate": "Estate",
     "estates": "Estates",
@@ -302,7 +309,6 @@
     "cancel": "Cancel Mortgage",
     "claim": "Claim parcel",
     "defaulted_in": "Default",
-    "duration": "Duration",
     "duration_placeholder": "Duration in days",
     "errors": {
       "amount_minimum": "Amount should be greater than {amount}",

@@ -31,3 +31,7 @@ export function hasSeenAuctionHelper(key) {
 export function dismissAuctionHelper(key) {
   localStorage.setItem(key, Date.now())
 }
+
+export function hasAuctionFinished() {
+  return Date.now() > env.get('REACT_APP_AUCTION_END_TIME')
+}
