@@ -108,8 +108,14 @@
   "auction_modal": {
     "description":
       "Pour participer à cette nouvelle vente aux enchères, vous devez autoriser le nouveau contrat {contract_link}.",
+    "finished_cta": "Aller au marché",
+    "finished_description": "Merci d'avoir participé.",
+    "finished_title": "Enchère terminée",
     "i_agree_with_terms": "Je suis d'accord avec le {terms_link}",
+    "land_sold": "LAND vendu",
+    "mana_burned": "Mana brûlé",
     "start": "Début",
+    "stats_title": "Voici quelques statistiques:",
     "terms_and_conditions": "Termes et conditions",
     "title": "Decentraland Enchère",
     "video_tutorial": "Didacticiel vidéo",
@@ -237,6 +243,7 @@
     "continue": "Continuer",
     "contributions": "Contributions",
     "created_at": "Créé le {date}",
+    "duration": "Durée",
     "edit": "Modifier",
     "estate": "Domaine",
     "estates": "Domaines",
@@ -309,7 +316,6 @@
     "cancel": "Annuler l'hypothèque",
     "claim": "Demande de parcelle",
     "defaulted_in": "Défaut",
-    "duration": "Durée",
     "duration_placeholder": "Durée en jours",
     "errors": {
       "amount_minimum": "Le montant doit être supérieur à {amount}",

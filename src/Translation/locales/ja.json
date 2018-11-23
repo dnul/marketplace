@@ -103,8 +103,14 @@
   "auction_modal": {
     "description":
       "この新しいオークションに参加するには、新しい{contract_link}契約を承認する必要があります。",
+    "finished_cta": "マーケットプレイスに行く",
+    "finished_description": "ご参加いただきありがとうございます。",
+    "finished_title": "オークション終了",
     "i_agree_with_terms": "私は{terms_link}に同意します",
+    "land_sold": "売り上げLAND",
+    "mana_burned": "マナは燃やされた",
     "start": "開始",
+    "stats_title": "ここにいくつかの統計があります：",
     "terms_and_conditions": "規約と条件",
     "title": "NTオークション",
     "video_tutorial": "ビデオチュートリアル",
@@ -226,6 +232,7 @@
     "continue": "続ける",
     "contributions": "貢献用",
     "created_at": "{date}に作成済み",
+    "duration": "期間",
     "edit": "編集",
     "estate": "エステート",
     "estates": "エステート",
@@ -297,7 +304,6 @@
     "cancel": "ローンをキャンセルする",
     "claim": "区画を請求する",
     "defaulted_in": "デフォルト",
-    "duration": "有効期間",
     "duration_placeholder": "有効期限日数",
     "errors": {
       "amount_minimum": "{amount}より大きい必要があります。",

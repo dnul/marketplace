@@ -106,8 +106,14 @@
   "auction_modal": {
     "description":
       "Para participar en esta nueva subasta, deberá autorizar el nuevo contrato {contract_link}.",
+    "finished_cta": "Ir al mercado",
+    "finished_description": "Gracias por participar.",
+    "finished_title": "Subasta terminada",
     "i_agree_with_terms": "Estoy de acuerdo con el {terms_link}",
+    "land_sold": "LAND vendido",
+    "mana_burned": "Mana quemada",
     "start": "Comienzo",
+    "stats_title": "Aquí hay algunas estadísticas:",
     "terms_and_conditions": "Términos y Condiciones",
     "title": "Decentraland Subasta",
     "video_tutorial": "Video Tutorial",
@@ -232,6 +238,7 @@
     "continue": "Continuar",
     "contributions": "Contribuciones",
     "created_at": "Creado en {date}",
+    "duration": "Duración",
     "edit": "Editar",
     "estate": "Propiedad",
     "estates": "Propiedades",
@@ -303,7 +310,6 @@
     "cancel": "Cancelar hipoteca",
     "claim": "Reclamo de paquete",
     "defaulted_in": "Default",
-    "duration": "Duración",
     "duration_placeholder": "Duración en días",
     "errors": {
       "amount_minimum": "La cantidad debe ser mayor que {amount}",

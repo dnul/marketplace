@@ -105,9 +105,9 @@
   "auction_modal": {
     "description":
       "To participate in this new auction, you'll need to authorize the new {contract_link} contract.",
-    "finished_title": "Auction Finished",
-    "finished_description": "Thank you for participating.",
     "finished_cta": "Go to marketplace",
+    "finished_description": "Thank you for participating.",
+    "finished_title": "Auction Finished",
     "i_agree_with_terms": "I agree with the {terms_link}",
     "land_sold": "LAND sold",
     "mana_burned": "Mana burned",
